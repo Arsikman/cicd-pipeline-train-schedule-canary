@@ -39,7 +39,7 @@ pipeline {
             }
         }
         stage('Canary Deployment') {
-           when {
+            when {
                 branch 'master'
             }
             steps {
